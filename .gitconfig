@@ -1,0 +1,18 @@
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+[gui]
+  encoding = utf-8
+[i18n]
+  commitencoding = utf-8
+  logoutputencoding = utf-8
+[core]
+  quotepath = false
+  editor = /usr/local/bin/vim
+[user]
+  email = buwanqf@gmail.com
+  name = buwanqf
+[url "git@github.com:"]
+  insteadOf = https://github.com/
